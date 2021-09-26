@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.absolute-center{
+  position: absolute;
+  transform: translateX(-50%,-50%);
+}
+.fixed-center{
+  position: fixed;
+  transform: translateX(-50%);
+}
+
+.bg-glass{
+  background: rgba(21, 36, 59,0.9);
+  backdrop-filter: blur(2px);
+}
